@@ -4,4 +4,5 @@
     <string name="name">name</string>
     <string name="price">price</string>
     <string name="submit">Submit</string>
+    <string name="website">website</string>
 </resources>

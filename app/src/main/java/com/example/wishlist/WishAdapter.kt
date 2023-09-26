@@ -29,7 +29,7 @@ class WishAdapter(private val items: List<Item>) : RecyclerView.Adapter<WishAdap
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item = items.get(position)
+        val item = items[position]
         holder.nameTextView.text = item.itemName
         holder.priceTextView.text = item.itemPrice
         holder.websiteTextView.text = item.website
